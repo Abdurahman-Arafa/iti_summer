@@ -1,14 +1,15 @@
 
-# This is a testing Laravel App 
-### where I apply what I've learned about Laravel
+# This is my Laravel App 
+where I apply what I've learned about Laravel
 
 </br>
 
 ## what i've learned so far:
     - MVC architecture
     - Routes
-    - Controllers and Middlewares
-    - Factories and Seeders (Made 'UserFactory' and 'OrderFactroy')
+    - Controllers 
+    - Middlewares
+    - Factories and Seeders
     - Authentication
     - Eloquent model
 
@@ -27,10 +28,11 @@
 4- Create a copy of your .env file by running `cp .env.example .env`.</br>
 5- Generate an app encryption key by running `php artisan key:generate`.</br>
 6- create an empty database with the same credentials in the .env file or update them with your own.</br>
-7- Migrate the database using `php artisan migrate`.</br>
-8- Seed the database using `php artisan db:seed`.
+7- Migrate the database using `php artisan migrate` to create the tables in the database.</br>
+8- Seed the database using `php artisan db:seed` to Populate the tables with data.
 
-# From here is the Default Laravel Readme just in case
+</br></br></br>
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
@@ -60,7 +62,7 @@ Laravel has the most extensive and thorough [documentation](https://laravel.com/
 
 If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
 
-## Laravel Sponsors
+<!-- ## Laravel Sponsors
 
 We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
 
@@ -86,7 +88,7 @@ Thank you for considering contributing to the Laravel framework! The contributio
 
 ## Code of Conduct
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct). -->
 
 ## Security Vulnerabilities
 
