@@ -1,3 +1,36 @@
+
+# This is a testing Laravel App 
+### where I apply what I've learned about Laravel
+
+</br>
+
+## what i've learned so far:
+    - MVC architecture
+    - Routes
+    - Controllers and Middlewares
+    - Factories and Seeders (Made 'UserFactory' and 'OrderFactroy')
+    - Authentication
+    - Eloquent model
+
+# Routes in this App:
+    - '/' opens the Laravel default page.
+    - '/login' opens a Custom Login page the logged in user is redirected to '/products'.
+    - '/register' opens a custom Register page then logs in the user and redirects to '/products'.
+    - '/products' opens a CRUD operation page for the Products table.
+    - '/home' can be accessed by clicking the App logo. Opens the default Laravel dashboard.
+    - '/admin' a dump of the user data, can only be accessed if the User's name is 'admin'. (done by using a custom middleware 'isAdmin')
+
+# To Run This App
+1- I used Laragon to Run the local server, you can get it from [laragon.org](https://laragon.org/download/index.html). you can use [pretty URLs](https://laragon.org/docs/pretty-urls.html) from it</br>
+2- make sure 'composer' is installed, if not install it from [getcomposer.org](https://getcomposer.org/). </br>
+3- your terminal cd to the project folder and run `composer install` then run `npm install`. </br>
+4- Create a copy of your .env file by running `cp .env.example .env`.</br>
+5- Generate an app encryption key by running `php artisan key:generate`.</br>
+6- create an empty database with the same credentials in the .env file or update them with your own.</br>
+7- Migrate the database using `php artisan migrate`.</br>
+8- Seed the database using `php artisan db:seed`.
+
+# From here is the Default Laravel Readme just in case
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
