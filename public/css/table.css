@@ -1,0 +1,30 @@
+table {
+    width: 100vw;
+    height: auto;
+    font-size:larger;
+    align-items: center;
+    text-align: center;
+}
+
+th{
+   background-color: black;
+   color: white;
+   padding: 15px;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+td{
+    height: 50px;
+}
+
+/* div{
+    width: 20%;
+    margin: auto;
+} */
+
+/* form, button{
+    display: inline;
+    align-items: center;
+} */
