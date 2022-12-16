@@ -24,7 +24,7 @@ where I apply what I've learned about Laravel
 # To Run This App
 1- I used Laragon to Run the local server, you can get it from [laragon.org](https://laragon.org/download/index.html). you can use [pretty URLs](https://laragon.org/docs/pretty-urls.html) from it</br>
 2- make sure 'composer' is installed, if not install it from [getcomposer.org](https://getcomposer.org/). </br>
-3- your terminal cd to the project folder and run `composer install` then run `npm install`. </br>
+3- in your terminal `cd` to the project folder and run `composer install` then run `npm install`. </br>
 4- Create a copy of your .env file by running `cp .env.example .env`.</br>
 5- Generate an app encryption key by running `php artisan key:generate`.</br>
 6- create an empty database with the same credentials in the .env file or update them with your own.</br>
